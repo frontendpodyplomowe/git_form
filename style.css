@@ -1,5 +1,6 @@
 h1 {
   color: rgb(255, 123, 0);
+
   font-weight: bold;
 }
 
@@ -8,11 +9,11 @@ h1 {
 }
 
 
+
 body{
     padding: 30px 30%;
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     
-
 }
 
 form {
@@ -82,6 +83,7 @@ form input:focus {
 }
 
 
+
 form input, textarea{
     background-color:#52ffB8;
 
@@ -101,7 +103,7 @@ form input, textarea{
   transition: border 2s ease-in-out, background-color 2s ease-in-out,
     color 1s ease-in, border-radius 2s ease-in-out;
   border: 3px solid darkorange;
-  background-color: pink;
-  color: white;
+  background-color: black;
+  color: yellow;
   border-radius: 5px;
 }
