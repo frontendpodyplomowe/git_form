@@ -16,15 +16,50 @@ body{
     
 }
 
-form {
-  font-size: 1rem;
-  color: darkgray;
-  background-color: lightyellow;
+
+#logo{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+        
 }
 
+#logo{
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    
+    }
+
+    @keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+    }
+
+
+
+
+form{
+    font-size: 1rem;
+    color: darkgray;
+    background-color: lightyellow;
+} 
 form label{
     font-family: sans-serif;
 }
+
+
+
 
 form label, form legend{
     width: 40%;
