@@ -1,14 +1,18 @@
-h1{
-    color: blue;
-    font-weight: bold;
+h1 {
+  color: rgb(255, 123, 0);
+
+  font-weight: bold;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+
+
 
 body{
     padding: 30px 30%;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     
 }
 
@@ -50,86 +54,95 @@ form{
     color: darkgray;
     background-color: lightyellow;
 } 
+form label{
+    font-family: sans-serif;
+}
+
+
+
 
 form label, form legend{
     width: 40%;
     float: left;
+
 }
 
 form input {
-    width: 60%;
+  width: 60%;
 }
 
-form div{
-    overflow: hidden;
-    /* clear: both; */
-    padding: 5px;
-    
+form div {
+  overflow: hidden;
+  /* clear: both; */
+  padding: 5px;
 }
 
-form > div > fieldset{
-    border: 0;
-    /* padding: 10px; */
-    padding: 0;
-    margin: 0;
+form > div > fieldset {
+  border: 0;
+  /* padding: 10px; */
+  padding: 0;
+  margin: 0;
 }
 
 form > div > fieldset > div > div > label {
-    font-size: 0.9rem;
-    color: black;
-    padding-left: 0.6rem;
+  font-size: 0.9rem;
+  color: black;
+  padding-left: 0.6rem;
 }
 
-form textarea{
-    width: 100%;
+form textarea {
+  width: 100%;
 }
 
 /* form/div[6]/div */
 
 form > div > div {
-    padding-left:0;
+  padding-left: 0;
 }
 
-
-form > div > fieldset > div > div > input{
-    width: auto;
-    float: left;
-    /* margin-left: 0; */
+form > div > fieldset > div > div > input {
+  width: auto;
+  float: left;
+  /* margin-left: 0; */
 }
 
 /* xpath full path */
 /* /html/body/div/form/div[7]/fieldset/div/div[1] */
 form > div > fieldset > div > div {
-    padding: 0;
+  padding: 0;
 }
 
 .cities > div > input {
-    width: auto;
-    float: left;
+  width: auto;
+  float: left;
 }
 
-form input:focus{
-    border: 3px solid orange;
+form input:focus {
+  border: 3px solid orange;
 }
+
+
 
 form input, textarea{
-    background-color: yellow;
+    background-color:#52ffB8;
+
 }
 
-#sendForm{
-    background-color:red;
-    font-weight: bold;
-    font-size: 1.5rem;
-    width: 100px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
+#sendForm {
+  background-color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
 }
 
-#sendForm:hover{
-    transition: border 2s ease-in-out, background-color 2s ease-in-out, color 1s ease-in, border-radius 2s ease-in-out;
-    border: 3px solid darkorange;
-    background-color: pink;
-    color: white;
-    border-radius: 5px;
+#sendForm:hover {
+  transition: border 2s ease-in-out, background-color 2s ease-in-out,
+    color 1s ease-in, border-radius 2s ease-in-out;
+  border: 3px solid darkorange;
+  background-color: black;
+  color: yellow;
+  border-radius: 5px;
 }
