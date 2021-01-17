@@ -18,6 +18,10 @@ form{
     background-color: lightyellow;
 } 
 
+form label{
+    font-family: sans-serif;
+}
+
 form label, form legend{
     width: 40%;
     float: left;
