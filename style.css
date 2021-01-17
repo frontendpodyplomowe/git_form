@@ -91,6 +91,8 @@ form input, textarea{
     height: 40px;
     display: block;
     margin: 0 auto;
+    box-shadow: 5px 10px yellow;
+
 }
 
 #sendForm:hover{
@@ -99,4 +101,6 @@ form input, textarea{
     background-color: pink;
     color: white;
     border-radius: 5px;
+    box-shadow: none; 
+    transition: 1s;
 }
