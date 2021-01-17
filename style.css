@@ -81,9 +81,10 @@ form input:focus {
   border: 3px solid orange;
 }
 
-form input,
-textarea {
-  background-color: yellow;
+
+form input, textarea{
+    background-color:#52ffB8;
+
 }
 
 #sendForm {
