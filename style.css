@@ -128,21 +128,25 @@ form input, textarea{
 
 }
 
-#sendForm {
-  background-color: red;
-  font-weight: bold;
-  font-size: 1.5rem;
-  width: 100px;
-  height: 40px;
-  display: block;
-  margin: 0 auto;
+#sendForm{
+    background-color:red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 10px yellow;
+
 }
 
-#sendForm:hover {
-  transition: border 2s ease-in-out, background-color 2s ease-in-out,
-    color 1s ease-in, border-radius 2s ease-in-out;
-  border: 3px solid darkorange;
-  background-color: black;
-  color: yellow;
-  border-radius: 5px;
+#sendForm:hover{
+    transition: border 2s ease-in-out, background-color 2s ease-in-out, color 1s ease-in, border-radius 2s ease-in-out;
+    border: 3px solid darkorange;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    box-shadow: none; 
+    transition: 1s;
 }
+
